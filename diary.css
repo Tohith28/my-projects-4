@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and add some spacing */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* You can change this to your preferred background color */
+    padding: 20px;
+}
+
+/* Style the main title */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the textarea for writing entries */
+textarea {
+    width: 80%;
+    height: 300px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the "Save Entry" button */
+button {
+    background-color: #007bff; /* Blue color, you can change this */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the list of saved entries */
+#savedEntries {
+    margin-top: 20px;
+    width: 82%;
+    height: auto;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #171616;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: square;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between; /* Add space between the buttons */
+    align-items: center; /* Align buttons vertically in the center */
+}
+
+/* Style the timestamp of saved entries */
+li strong {
+    display: block;
+    font-size: 14px;
+    color: #0c0c0c;
+    margin-bottom: 5px;
+}
+
+/* Style the buttons within each entry */
+li button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px; /* Add space between buttons */
+}
+
+/* Style the "Edit" button */
+li button.edit-button {
+    background-color: #28a745; /* Green color for the Edit button */
+}
+
+/* Style the "Delete" button */
+li button.delete-button {
+    background-color: #dc3545; /* Red color for the Delete button */
+}
